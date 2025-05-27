@@ -282,7 +282,7 @@ def page_fr(graph):
                 st.success('''**(+33) 7 67 60 57 92**
                            \n**(+1) 514 558 5015**''')
             st.write('---')
-            cl, ci, ct = st.columns([.6, .05, .35])
+            cl, ci, ct = st.columns([.55, .05, .4])
             with cl:
                 st.image('img/contact/loc.png')
                 st.write('**Montréal QC, Canada**')
